@@ -28,6 +28,11 @@ window.onload = function() {
       document.querySelector(".icono-top").innerHTML = randomsuit;
       document.querySelector(".number").innerHTML = randomnumbers;
       document.querySelector(".icono-bottom").innerHTML = randomsuit;
+
+      if (randomsuit == "♥" || randomsuit == "♦") {
+        document.querySelector(".icono-top").style.color = "red";
+        document.querySelector(".icono-bottom").style.color = "red";
+      }
     }
 
     randomCard();
