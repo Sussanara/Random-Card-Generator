@@ -1,1 +1,40 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+
+.card {
+  display: inline-block;
+  background: white;
+  margin: auto;
+  height: 400px;
+  width: 250px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+  position: relative;
+}
+
+.icono-top {
+  content: "♥", "♠", "♣", "♦";
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 75px;
+}
+
+.icono-bottom {
+  content: "♥", "♠", "♣", "♦";
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  font-size: 75px;
+}
+.number {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  padding: 100px;
+  padding-top: 140px;
+  font-size: 80px;
+  padding-right: 120px;
+}
