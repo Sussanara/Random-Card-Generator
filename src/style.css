@@ -22,6 +22,15 @@ body {
   font-size: 75px;
 }
 
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 300px;
+}
+
 .icono-bottom {
   content: "♥", "♠", "♣", "♦";
   position: absolute;
